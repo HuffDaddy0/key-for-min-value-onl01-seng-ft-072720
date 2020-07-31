@@ -8,7 +8,7 @@ namehash.each do |name, value|
     lowest_value = value
   end
 end
-  namehash.find do |name, value|
+  name_hash.find do |name, value|
     value == lowest_value
     return name
 end
